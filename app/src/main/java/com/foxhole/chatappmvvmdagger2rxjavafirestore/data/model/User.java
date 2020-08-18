@@ -6,7 +6,7 @@ public class User {
     private String displayName;
     private String image;
     private String status;
-    private boolean online;
+    private Boolean online;
 
     public User() {
 

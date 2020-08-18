@@ -82,7 +82,10 @@ public class MessageRecyclerAdapter extends RecyclerView.Adapter<MessageRecycler
         }
         else {
             holder.receiverText.setText(messageList.get(position).getMessage());
-            requestManager.load(imageUrl).into(holder.imageView);
+
+            if (imageUrl!=null){
+                requestManager.load(imageUrl).into(holder.imageView);
+            }
         }
     }
 
