@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "437949946361",
+    "firebase_url": "https://chat-app-e921b.firebaseio.com",
+    "project_id": "chat-app-e921b",
+    "storage_bucket": "chat-app-e921b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437949946361:android:a4095cdd71f532b8cac528",
+        "android_client_info": {
+          "package_name": "com.foxhole.chatappmvvmdagger2rxjavafirestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437949946361-1280ub4klmar5nurjbnevj4g17c20ldd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foxhole.chatappmvvmdagger2rxjavafirestore",
+            "certificate_hash": "fd5a5a1258ce0af7bc26f9c7db258d33174663de"
+          }
+        },
+        {
+          "client_id": "437949946361-jqkfiijor4bph2vnjqrq6b4f8mm0vk3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW_Rw4RBK0-yflI419oPUdM9YNH9SJ8lE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437949946361-jqkfiijor4bph2vnjqrq6b4f8mm0vk3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
