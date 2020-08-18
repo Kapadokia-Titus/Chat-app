@@ -124,18 +124,18 @@ public class AccountActivity extends DaggerAppCompatActivity implements View.OnC
     }
 
     private void observerInfoChange() {
-//        accountViewModel.getUserInfo().observe(this, new Observer<User>() {
-//            @Override
-//            public void onChanged(User user) {
-//                if (!user.getImage().equals("default")) {
-//                    requestManager.load(user.getImage()).into(profileImage);
-//                }
-//                if (!user.getStatus().equals("default")) {
-//                    status.setText(user.getStatus());
-//                }
-//                displayName.setText(user.getDisplayName());
-//            }
-//        });
+        accountViewModel.getUserInfo().observe(this, new Observer<User>() {
+            @Override
+            public void onChanged(User user) {
+                if (!user.getImage().equals("default")) {
+                    requestManager.load(user.getImage()).into(profileImage);
+                }
+                if (!user.getStatus().equals("default")) {
+                    status.setText(user.getStatus());
+                }
+                displayName.setText(user.getDisplayName());
+            }
+        });
     }
 
     private void intView() {
