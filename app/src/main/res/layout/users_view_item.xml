@@ -31,7 +31,6 @@
       android:fontFamily="@font/raleway_semibold"
       android:textAppearance="@style/TextAppearance.AppCompat.Medium"
       android:textColor="@color/colorPrimaryText"
-      app:layout_constraintBottom_toTopOf="@+id/textView2"
       app:layout_constraintStart_toEndOf="@+id/profile_image"
       app:layout_constraintTop_toTopOf="@+id/profile_image"
       tools:text="@tools:sample/full_names" />
@@ -43,7 +42,7 @@
       android:layout_marginStart="8dp"
       android:layout_marginEnd="8dp"
       android:fontFamily="@font/raleway_medium"
-      android:text="Hi! I'm using Chat App !"
+      android:text="@string/hi_i_m_using_chat_app"
       android:textColor="@color/colorSecondaryText"
       app:layout_constraintBottom_toBottomOf="@+id/profile_image"
       app:layout_constraintEnd_toEndOf="parent"
